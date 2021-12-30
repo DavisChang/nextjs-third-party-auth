@@ -31,6 +31,10 @@
 					statusChangeCallback(response);
 				});
 			}
+
+			function statusChangeCallback(data) {
+				console.log('statusChangeCallback:', data)
+			}
 		</script>
 		<div>
 			<h3>login</h3>
@@ -72,3 +76,4 @@
 		</div>
 	</body>
 </html>
+
