@@ -74,6 +74,15 @@
 			  data-show-faces="true">
 			</div>
 		</div>
+		<div>
+			<h3>ig - authentication</h3>
+			<button onclick="igAuth()">auth</button>
+			<script>
+				function igAuth() {
+					window.location.href = 'https://api.instagram.com/oauth/authorize?client_id=1500558773645378&redirect_uri=https://davischang.github.io/nextjs-third-party-auth/public/index.html&scope=user_profile,user_media&response_type=code'
+				}
+			</script>
+		</div>
 	</body>
 </html>
 
